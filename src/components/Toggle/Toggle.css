@@ -25,3 +25,9 @@
     background-color: #999;
     position: absolute;cursor: pointer;
 }
+
+@media (max-width:1000px) {
+    .toggle__button{
+        top: -13px;
+    }
+}
