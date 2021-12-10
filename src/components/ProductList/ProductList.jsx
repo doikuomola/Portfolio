@@ -10,10 +10,10 @@ const ProductList = () => {
         <div className="productlist">
             <div className="product__list__texts">
                 <h1 className="product__list__title">
-                    Create & inspire. It's Lama
+                    Create & inspire.
                 </h1>
                 <p className="product__list__desc">
-                    Lama is a creative portfolio that your work has been waiting
+                    Walestrings.online is a creative portfolio that your work has been waiting
                     for. Beautiful homes, stunning portfolio styles & a whole
                     lot more awaits inside.
                 </p>

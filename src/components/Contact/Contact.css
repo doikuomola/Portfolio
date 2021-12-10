@@ -114,6 +114,6 @@ button {
         display: flex;
         justify-content: center;
         align-self: center;
-        width: 60%;
+        width: 100%;
     }
 }
