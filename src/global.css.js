@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+import { createGlobalStyle } from "styled-components";
+
+const Global = createGlobalStyle`
+
 
 * {
   margin: 0;
@@ -30,9 +33,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  overflow-y: scroll;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  display: none;
 }
 
 body {
@@ -63,7 +64,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  /* height: 100vh; */
 }
 
 section > h2,
@@ -118,21 +118,6 @@ img {
   object-fit: cover;
 }
 
-/* MEDIA QUERIES  */
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  section {
-    margin-top: 6rem;
-  }
-}
-/* MEDIA QUERIES (SMALL DEVICES) */
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-  section > h2 {
-    margin-bottom: 2rem;
-  }
-}
+`;
+
+export { Global };
